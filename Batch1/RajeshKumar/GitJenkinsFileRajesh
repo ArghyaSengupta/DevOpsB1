@@ -1,1 +1,39 @@
+1. Foundations
+	1.1 Learn Git basics
+		- What is Git & GitHub
+		- Install Git locally
+		- Create repository (local & remote)
+  	- Git commands: clone, add, commit, push, pull, branch
+		- Understanding .gitignore
+	1.2 Learn GitHub usage
+		- Creating repositories
+		- Managing branches & pull requests
+		- Understanding GitHub Actions
+		- Access control & collaboration
+2. Jenkins Basics
+	2.1 Install & set up Jenkins
+		-	Local setup or server setup
+		- Install plugins (Git, Pipeline, etc.)
+		- Configure Jenkins UI basics
+	2.2	First Job
+		-	Freestyle job pulling code from GitHub
+		-	Trigger builds manually
+		-	View console output
+	2.3	Basic Triggers
+		-	Poll SCM
+		-	Webhook from GitHub to Jenkins
+3. Jenkins Pipelines
+		-	Declarative vs. Scripted Pipelines
+		-	Create Jenkinsfile in GitHub repo
+		Define basic pipeline stages:
+		-	Checkout code from GitHub
+		-	Build the project
+		-	Test the code
+		-	Deploy (optional in beginning)
+4. Advanced Integration
+		-	Parameterized Builds (pass variables)
+		-	Multi-branch pipelines with GitHub branches
+		-	Integration with GitHub Actions
+		-	Security best practices (credentials, tokens, webhooks)
+		-	Monitoring & logs
 
