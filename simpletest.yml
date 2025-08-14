@@ -2,9 +2,15 @@ name: Simple Workflow
 
 on:
   push:
-    branches: [ "dev" ]   # Runs when code is pushed to dev
+    branches: [ "main" ]   # Runs when code is pushed to main
 
 jobs:
   say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Say Hello
-        run: echo "Hello from GitHub Actions! "
+        run: echo "Hello from GitHub Actions! 🚀"
