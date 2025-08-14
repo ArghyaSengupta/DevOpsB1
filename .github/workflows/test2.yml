@@ -2,7 +2,7 @@ name: Simple Workflow
 
 on:
   push:
-    branches: [ "main" ]   # Runs when code is pushed to main
+    branches: [ "dev" ]   # Runs when code is pushed to main
 
 jobs:
   say-hello:
